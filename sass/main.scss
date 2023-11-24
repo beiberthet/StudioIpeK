@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Manrope:wght@200;300;600&family=Noto+Sans+JP:wght@300;800&display=swap');
+
+*{font-family: 'Bakbak One', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;}
+
+
+.slide img{
+    // margin-top: 20px;
+    width: 100%;
+    height: 800px;
+    
+}
+
+.artistas figure img{
+    height: 350px;
+}
+
+
+
+/* PADDING A TODO LO QUE NECESITA */
+
+.imagen div img{
+    width: 90%;
+}
+
+.logo{
+width: 140px;
+height: 60px;
+
+
+}
+
+.nav{
+    background-color: rgb(243, 243, 243);;
+    a{
+        font-weight: 600;
+        
+    }
+}
+
+
+.artistas{
+    margin: 30px;
+    
+    h5{
+        font-weight: 600;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    p{
+        font-weight: 300;
+        font-size: 0.8em;
+    }
+
+}
+
+.eventos{
+
+}
+
+.talleres{
+    .curso{
+        margin: 25px;
+    }
+          
+
+    h5{
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+    p{
+        font-weight: 300;
+        font-size: 1em;
+    }
+}
+
+.slide{
+    h1, h2, h3{
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+}
+
+.footer{
+    background-color: rgb(243, 243, 243);
+    justify-content: space-around;
+    h5, legend{
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+    p{
+        font-weight: 300;
+    }
+ 
+}
+.talleres{
+    padding: 20px;
+    h1{
+        font-weight: 600;
+        
+    }
+   
+
+}
