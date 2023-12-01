@@ -109,7 +109,6 @@
 
 .footer {
   background-color: rgb(249, 246, 238);
-  justify-content: space-around;
   padding: 50px;
 }
 .footer h5, .footer legend {
@@ -158,6 +157,19 @@
   padding: 40px;
   font-size: 1.2em;
   font-weight: 300;
+}
+
+.sitemap h5 {
+  font-weight: 600;
+  font-size: 2em;
+}
+.sitemap p {
+  font-weight: 200;
+  font-size: 1.5em;
+}
+
+.maps {
+  padding: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */

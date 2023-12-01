@@ -132,7 +132,6 @@ margin: 10px;
 
 .footer{
     background-color: rgb(249, 246, 238);
-    justify-content: space-around;
     padding: 50px;
     h5, legend{
         color: rgb(48, 48, 48);
@@ -171,9 +170,7 @@ margin: 10px;
       padding: 70px;
     }
 }
-.input{
 
-}
 .boton{
 background-color:  rgb(160, 106, 49);
 
@@ -195,4 +192,19 @@ background-color:  rgb(160, 106, 49);
     }
 }
 
+.sitemap{
+    
+    h5{
+        font-weight: 600;
+        font-size: 2em;
 
+    }
+    p{
+        font-weight: 200;
+        font-size: 1.5em;
+      
+    }
+}
+.maps{
+    padding: 50px;
+}
