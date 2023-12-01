@@ -10,33 +10,33 @@
 </head>
 <body>
   <!-- agregar hover a la nav!! - arreglar lo del logo!!  -->
-    <nav class="navbar navbar-expand-lg nav ">
-        <div>
-          <a class="navbar-brand logo" href="./index.html">
-            <img src="./img/logo-si-defini.svg" alt="Logo Studio ipeK">
-          </a>
-        </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                    <a class="nav-link" href="./content/talleres.html">Talleres</a>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./content/eventos.html">Eventos</a>
+  <nav class="navbar navbar-expand-lg nav">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="./index.html">
+        <img src="./img/Logo-agrup-ulti.svg" alt="Logo Studio ipeK">
+      </a>
+    </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+                <a class="nav-link" href="./content/talleres.html">Talleres</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./content/artistas.html">Artistas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./content/nosotros.html">Nosotros</a>
-              </li>
-            </ul>
-          </div>
-       
-      </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="./content/eventos.html">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./content/artistas.html">Artistas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./content/nosotros.html">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    
+  </nav>
     <!-- ends nav -->
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -79,22 +79,27 @@
         </button>
       </div>
       <!-- ends carousel -->
-      <section class="text-center">
+      <section class="text-center intro row">
+        <div class="col-sm-12 col-xl-7">
         <h3>“Descubre, conecta, crea: Nuestro centro, tu expresión.”</h3>
+      </div>
+      <div class="col-sm-12 col-xl-5">
         <p>Studio Ipek se convierte en un crisol donde las fibras de la creatividad se entrelazan para formar algo único y especial. Nuestro nombre celebra el proceso creativo, donde cada hilo de pensamiento y cada detalle y la dedicacion se fusionan para dar vida a algo extraordinario.</p>
+      </div>
       </section>
       <!-- ends frase subtitulo -->
-      <section class="row imagen">
-        <div class=" col-sm-12 col-xl-7">
+      <section class="row imagen container-fluid">
+        <div class=" col-sm-12 col-xl-6">
           <img src="./img/home/mike-von-SBSMmcVPfk4-unsplash.jpg" alt="">
         </div>
-        <div class="col-sm-12 col-xl-5 text-center ">
-          Sumérgete en un mundo donde la imaginación no tiene fronteras. Desde las pinceladas de los artistas locales que adornan nuestras paredes hasta las notas de músicos que llenan el aire, cada rincón de nuestro centro está impregnado de la vibrante energía creativa de nuestra comunidad. Nuestro compromiso es fomentar un espacio donde los artistas de todas las disciplinas encuentren inspiración, apoyo y un público ávido de nuevas experiencias.
+        <div class="col-sm-12 col-xl-6 text-center ">
+          <p>Sumérgete en un mundo donde la imaginación no tiene fronteras. Desde las pinceladas de los artistas locales que adornan nuestras paredes hasta las notas de músicos que llenan el aire, cada rincón de nuestro centro está impregnado de la vibrante energía creativa de nuestra comunidad. Nuestro compromiso es fomentar un espacio donde los artistas de todas las disciplinas encuentren inspiración, apoyo y un público ávido de nuevas experiencias.
+           Acompáñanos en este viaje donde la creatividad no conoce límites, y donde la pasión de nuestros artistas encuentra su hogar. Celebremos juntos la riqueza de talento que da vida a nuestro espacio cultural, nutriendo el espíritu de colaboración y descubrimiento que hace que nuestro centro sea verdaderamente único.
+          </p>
         </div>
       </section>
 
       <!-- footer -->
-      <!-- ver como poner la opcion de escribir en el form!!  -->
       <!-- agregar d-flex y acomodar tamaños -->
       <section class="form footer d-flex">
         <div class="">
@@ -103,17 +108,17 @@
             <p>Dejanos tu correo electrónico para enterarte de la programación de Studio ipeK</p>
             <div class="mb-3">
               <label for="disabledTextInput" class="form-label">Correo electronico</label>
-              <input type="text" id="disabledTextInput" class="form-control" placeholder="Tu correo electronico">
+              <input type="text" id="disabledTextInput" class="form-control input" placeholder="Tu correo electronico">
             </div>
             <div class="mb-3">
               <label for="disabledTextInput" class="form-label">Nombre</label>
-              <input type="text" id="disabledTextInput" class="form-control" placeholder="Tu nombre">
+              <input type="text" id="disabledTextInput" class="form-control input" placeholder="Tu nombre">
             </div>
             <div class="mb-3">
               <label for="disabledTextInput" class="form-label">Apellido</label>
-              <input type="text" id="disabledTextInput" class="form-control" placeholder="Tu apellido">
+              <input type="text" id="disabledTextInput" class="form-control input" placeholder="Tu apellido">
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-dark">Enviar</button>
           </fieldset>
         </form>
       </div>
@@ -126,7 +131,7 @@
       </div>
 
     </section>
-     <!-- ends form -->
+     <!-- ends footer -->
 
 
 
